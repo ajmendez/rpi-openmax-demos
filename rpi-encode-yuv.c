@@ -49,10 +49,15 @@
 #include <IL/OMX_Broadcom.h>
 
 // Hard coded parameters
-#define VIDEO_WIDTH                     1920 / 4
-#define VIDEO_HEIGHT                    1080 / 4
+// #define VIDEO_WIDTH                     1920 / 4
+// #define VIDEO_HEIGHT                    1080 / 4
+// #define VIDEO_FRAMERATE                 25
+// #define VIDEO_BITRATE                   10000000
+#define VIDEO_WIDTH                     1920
+#define VIDEO_HEIGHT                    1072
 #define VIDEO_FRAMERATE                 25
 #define VIDEO_BITRATE                   10000000
+
 
 // Dunno where this is originally stolen from...
 #define OMX_INIT_STRUCTURE(a) \
